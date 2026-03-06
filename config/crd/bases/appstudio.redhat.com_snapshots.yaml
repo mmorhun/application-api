@@ -130,6 +130,7 @@ spec:
                             Git repository URL for the component.
                             Optional.
                             !!! Will be required when we remove old model
+                          maxLength: 2048
                           type: string
                         versions:
                           description: |-
